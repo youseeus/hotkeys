@@ -10,21 +10,22 @@ const symbols = {
   left: '&#8592;',
   right: '&#8594;',
   up: '&#8593;',
-  down: '&#8595;',
-  enter: '&#8996;'
+  down: '&#8595;'
 };
 
 const appleSymbols = {
   meta: '&#8984;',
   altleft: '&#8997;',
   control: '&#8963;',
-  escape: '&#9099;'
+  escape: '&#9099;',
+  enter: '&#8996;'
 };
 
 const pcSymbols = {
   control: 'Ctrl',
   altleft: 'Alt',
-  escape: 'Esc'
+  escape: 'Esc',
+  enter: 'Enter'
 };
 
 @Pipe({
